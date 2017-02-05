@@ -1,0 +1,185 @@
+body {
+    background: black; /*цвет фона*/
+    margin: 0; /*убрать отступы*/
+}
+
+table {
+    border-spacing: 3px; /*расстояние между границами ячеек в таблице*/
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 10px;
+}
+
+select {
+    border-radius: 2px;
+    border: 2px solid white;
+    font-size: 10px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 2px solid white;
+    height: 60px;
+    width: 310px;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: blue;
+}
+
+a:visited {
+    color: blue; /* Цвет посещенных ссылок */
+}
+
+a:hover {
+    color: red; /* Цвет ссылки при наведении на нее курсора мыши */
+    background: #aaaaaa; /* Цвет фона */
+}
+
+.cssHeader {
+    background: #eaeaea;
+    height: 80px;
+    padding-top: 5px; /*отступы внутри сверху*/
+    margin-bottom: 20px; /*расстояние снизу до следующего блочного элемента*/
+}
+
+.cssMainImage {
+    margin-left: 5px; /*величина отступа от левого края элемента*/
+    height: 70px;
+    float: left;
+}
+
+.cssLocale {
+    margin-top: 5px;
+    margin-left: 10px; /*величина отступа от левого края элемента*/
+    height: 30px;
+    width: 60px;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+.cssUpBlock {
+    background-color: #333333;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.cssMainContentBlock {
+    padding-left: 15px; /*отступ от внутренних границ*/
+    padding-right: 15px; /*отступ от внутренних границ*/
+}
+
+.cssLogoutFormUserName {
+    margin-top: 5px;
+    height: 55px;
+    width: 160px;
+    float: right;
+    /*border: 1px solid black;*/
+}
+
+.cssLeftMenu {
+    float: left; /*по какой стороне будет выравниваться элемент*/
+    width: 140px; /*ширина*/
+    /*height: 500px; !*высота*!*/
+    /*padding: 5px; !*отступ от внутренних границ*!*/
+    margin-top: 50px;
+    margin-left: 18%; /*величина отступа от левого края элемента*/
+    border-radius: 5px;
+    background: #eaeaea;
+}
+
+.cssContent {
+    background: #eaeaea;
+    width: 480px;
+    margin-left: calc(18% + 140px + 20px); /*величина отступа от левого края элемента*/
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.cssRightMenu {
+    background: #eaeaea;
+    width: 350px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.cssFormUser {
+    border: 4px double black; /*параметры границы*/
+    background: #eaeaea; /*цвет фона*/
+    width: 310px; /*ширина*/
+    border-radius: 5px;
+    margin: auto; /*выравнивание по центру окна*/
+}
+
+.cssBtn {
+    color: #eaeaea;
+    font-size: 10px;
+    background: black;
+}
+
+.cssInput {
+    background: black;
+    color: #eaeaea;
+    width: 270px;
+}
+
+.cssInputSearch {
+    background: black;
+    color: #eaeaea;
+    width: 200px;
+}
+
+.cssError {
+    color: red;
+    font-size: 8px;
+}
+
+.cssSuccess {
+    color: green;
+    font-size: 8px;
+}
+
+.cssRef {
+    color: blue;
+    font-size: 10px;
+}
+
+.cssRefGenre {
+    font-size: 10px;
+}
+
+.cssMovieAllInfo {
+    background: #CCCCCC;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 15px;
+    border: 2px solid blue;
+}
+
+.cssMovieLeftInfo {
+    width: 180px;
+    float: left; /*по какой стороне будет выравниваться элемент*/
+    height: 350px;
+}
+
+.cssMovieRightInfo {
+    height: 340px;
+    margin-left: 200px;
+    padding-top: 10px;
+
+}
+
+.cssFontSize14 {
+    font-size: 14px;
+}
+
+.cssFontSize10 {
+    font-size: 10px;
+}
